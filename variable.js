@@ -102,6 +102,6 @@ text = '8' / '2';
 console.log(`value: ${text}, type: ${typeof text}`);
 // string과 string을 나눴네? 실제 string에 들어간 값은 숫자자나? 그럼 number로 출력됨
 console.log(text.charAt(0));
-//마지막에 다른 개발자가 갑자기 number type으로 변경하면 console에서 오류뜸
+//마지막에 다른 개발자가 갑자기 number type으로 변경하면 console에서 오류가 
 
 
