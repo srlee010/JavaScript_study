@@ -103,7 +103,7 @@ console.clear();
 console.log(user3);
 
 // Object.assign()
-// 작성방법 1
+// 작성방법 1 (콘솔에 출력할땐 이거 지우기)
 const user4 = {};
 Object.assign(user4, user);
 // 작성방법 2
