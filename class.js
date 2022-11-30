@@ -102,5 +102,5 @@ console.log(triangle.getArea);
 console.log(rectangle instanceof Rectangle);
 console.log(triangle instanceof Rectangle);
 console.log(triangle instanceof Triangle);
-console.log(triangle instanceof shape);
+console.log(triangle instanceof shape);  
 console.log(triangle instanceof Object);
