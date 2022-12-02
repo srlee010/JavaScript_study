@@ -36,15 +36,43 @@ fruits.forEach(function(fruit, index) {
   console.log(fruit, index);
 });
 
-// [복습] 함수표시는 아래처럼 간단하게 arrow이용해서 선언 가능! 한줄만 있는 경우 {} & ; 생략가능ㅎㅎ
+// [복습] 함수표시는 아래처럼 간단하게 arrow이용해서 선언 가능! 한줄만 있는 경우 {} & ; 생략가능ㅎㅎ 
 fruits.forEach((fruit, index) => console.log(fruit, index));
 
 
 // 4. Addition, deletion, copy
-// API 'push' : add an item to the end 
+// API 'push' : add an item to the 'end' 
 fruits.push('🍓','🍑');
 console.log(fruits);
 
-// API 'pop' :remove an item from the end
+// API 'pop' :remove an item from the 'end'
+fruits.pop();
+console.log(fruits);
 
+// unshift: add an item to the 'beginning'
+fruits.unshift('🍓','🍋');
+console.log(fruits); 
+
+// shift: remove an item from the 'beginning'
+fruits.shift();
+fruits.shift();
+console.log(fruits);
+
+// note! shift& unshift are slower than pop & push
+// splice: remove an item by index postition 
+fruits.push('🍑','🍋');
+console.log(fruits);
+// fruits.splice(1, 2);
+// console.log(fruits);
+fruits.splice(1, 2, '🍏', '🍉');
+console.log(fruits); 
+
+// combine two arrays
+const fruits2 = ['🍐', '🥥'];
+const newFruits = fruits.concat(fruits2);
+console.log(newFruits);
+
+
+// 5. Searching
+//
 
