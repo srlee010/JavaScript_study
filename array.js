@@ -40,3 +40,11 @@ fruits.forEach(function(fruit, index) {
 fruits.forEach((fruit, index) => console.log(fruit, index));
 
 
+// 4. Addition, deletion, copy
+// API 'push' : add an item to the end 
+fruits.push('🍓','🍑');
+console.log(fruits);
+
+// API 'pop' :remove an item from the end
+
+
