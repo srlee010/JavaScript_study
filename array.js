@@ -74,5 +74,19 @@ console.log(newFruits);
 
 
 // 5. Searching
-//
+// find the index
+console.clear();
+console.log(fruits);
+console.log(fruits.indexOf('🍎'));
+console.log(fruits.indexOf('🍉'));
+console.log(fruits.indexOf('🥕'));   // 배열안에 해당값이 없으면 -1출력됨
+console.log(fruits.includes('🍓'));  // 배열에 해당값이 있는지 없는지 확인가능
+
+console.clear();
+// lastIndexof
+// 만약 배열안에 똑같은 값(사과)가 하나 더 있다면 ?
+fruits.push('🍎');
+console.log(fruits);
+console.log(fruits.indexOf('🍎'));   // 출력: 0 -> indexOf는 첫번째로 만난 index값을 리턴함
+console.log(fruits.lastIndexOf('🍎')); // 출력: 5 -> lastIndexOf는 제일 마지막에 있는 index값을 리턴함
 
