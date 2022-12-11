@@ -69,8 +69,3 @@ const students = [
 // result should be: '45, 80, 90, 66, 88'
 {
 }
-
-// Bonus! do Q10 sorted in ascending order
-// result should be: '45, 66, 80, 88, 90'
-{
-}
