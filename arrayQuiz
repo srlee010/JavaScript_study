@@ -44,28 +44,4 @@ const students = [
   new Student('E', 18, true, 88),
 ];
 
-// Q5. find a student with the score 90
-{
-}
 
-// Q6. make an array of enrolled students
-{
-}
-
-// Q7. make an array containing only the students' scores
-// result should be: [45, 80, 90, 66, 88]
-{
-}
-
-// Q8. check if there is a student with the score lower than 50
-{
-}
-
-// Q9. compute students' average score
-{
-}
-
-// Q10. make a string containing all the scores
-// result should be: '45, 80, 90, 66, 88'
-{
-}
